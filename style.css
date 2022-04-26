@@ -1,0 +1,50 @@
+body{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+input{
+    width: 214px;
+    height: 2.2em;
+}
+#btn-search{
+    height: 2.2em;
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5% 10%;
+}
+
+.character-name{
+    font-size: 1.3em;
+    color:red;
+    padding: 5px;
+}
+.character-tag{
+    padding: 8px;
+}
+
+.card-container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    margin: 20px;
+    width: 220px;
+    border:1px solid #fff;
+    border-radius: 5px;
+}
+.btn{
+    padding: 6px;
+    font-size: 16px;
+    margin-top: 10px;
+}
